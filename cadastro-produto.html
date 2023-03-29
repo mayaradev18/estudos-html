@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SCP - Sistema de controle de produtos </title>
+</head>
+<body>
+    <h1>Sistema de controle de produtos</h1>
+
+
+    <a href="index.html">Dashboard</a>
+    <a href="cadastro-produto.html">Cadastrar produto</a>
+    <a href="#">Listar produtos</a>
+
+
+    <h3>Cadastro produto</h3>
+    <form method="POST">
+        <input type="text" name="nome" id="nome" placeholder="nome do produto">
+        <input type="number" name="quantidade" id="quantidade" placeholder="quantidade em estoque">
+        <input type="number" name="preco_custo" id="preco_custo" placeholder="preço de custo">
+        <input type="number" name="preco_venda" id="preco_venda" placeholder="preço de venda">
+        <input type="text" name="unidade" id="unidade" placeholder="unidade de venda">
+        <input type="text" name="marca" id="marca" placeholder="marca do produto">
+        <input type="date" name="validade" id="validade" placeholder="data de validade do produto">
+        <input type="date" name="fabricacao" id="fabricacao" placeholder="data de fabricação do produto">
+        <input type="radio" name="status" id="status" value="ativo">ativo
+        <input type="radio" name="status" id="status" value="inativo">inativo
+        <input type="submit" value="cadastrar">
+
+    </form>
+</body>
+</html>
